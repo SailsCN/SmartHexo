@@ -1,0 +1,14 @@
+<footer id="footer">
+  <% if (theme.sidebar === 'bottom'){ %>
+    <%- partial('_partial/sidebar') %>
+  <% } %>
+  <div class="outer">
+    <div id="footer-info" class="inner">
+      &copy; <%= date(new Date(), 'YYYY') %>
+      <a href="http://github.com/mingyi">Mingyi Liang</a> 
+      <a href="http://github.com/tengfeiqi">Tengfei Qi</a>
+      <br>
+      Powered by <a href="http://github.com/sailscn" target="_blank">Github</a>
+    </div>
+  </div>
+</footer>
